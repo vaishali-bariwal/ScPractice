@@ -28,7 +28,8 @@ public class MinimizeDifference {
                     freq[j - 1] = freq[j - 1] + freq[j];
                     k = k - freq[j];
                     j--;
-                } else {
+                } 
+                else {
                     break;
                 }
             } else {
@@ -36,7 +37,8 @@ public class MinimizeDifference {
                     freq[i + 1] = freq[i + 1] + freq[i];
                     k = k - freq[i];
                     i++;
-                } else {
+                } 
+                else {
                     break;
                 }
             }
