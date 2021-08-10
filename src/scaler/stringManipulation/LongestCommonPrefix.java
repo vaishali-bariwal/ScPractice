@@ -1,3 +1,5 @@
+package scaler.stringManipulation;
+
 
 public class LongestCommonPrefix
 {
